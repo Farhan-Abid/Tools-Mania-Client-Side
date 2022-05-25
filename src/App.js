@@ -10,6 +10,8 @@ import RequireAuth from './Pages/Login/RequireAuth';
 import { useState } from 'react';
 import Purchase from './Pages/Purchase/Purchase';
 import SignUp from './Pages/Login/SignUp';
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [product,setProduct]=useState({});
@@ -26,6 +28,7 @@ function App() {
       <Route path='/signup' element={<SignUp></SignUp>}></Route>
         
       </Routes>
+      <ToastContainer />
     </div>
   );
 }

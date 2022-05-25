@@ -1,6 +1,7 @@
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
+import { toast } from 'react-toastify';
 
 const Purchase = ({ product }) => {
   const [user, loading] = useAuthState(auth);
@@ -18,7 +19,7 @@ const Purchase = ({ product }) => {
   const handlePurchase = (event) => {
     event.preventDefault();
     const quantity = event.target.quantity.value;
-    const purchase ={
+    const clickPurchase ={
       toolsId : _id,
       tools: name,
       toolsAvailable: available,
@@ -29,6 +30,18 @@ const Purchase = ({ product }) => {
       phone: event.target.phone.value
 
     }
+
+    fetch('http://localhost:5000/clickPurchase', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json'
+      },
+      body: JSON.stringify(clickPurchase)
+    })
+    .then(res => res.json())
+    .then(data => {
+
+    })
   };
   return (
     <div>
