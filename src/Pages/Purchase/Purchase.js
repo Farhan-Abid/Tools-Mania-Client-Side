@@ -5,6 +5,7 @@ import auth from "../../firebase.init";
 const Purchase = ({ product }) => {
   const [user, loading] = useAuthState(auth);
   const {
+    _id,
     img,
     supplier,
     name,
@@ -16,6 +17,18 @@ const Purchase = ({ product }) => {
 
   const handlePurchase = (event) => {
     event.preventDefault();
+    const quantity = event.target.slot.value;
+    const purchase ={
+      toolsId : _id,
+      tools: name,
+      toolsAvailable: available,
+      toolsMinimum: minimum,
+      quantity,
+      user: user.email,
+      userName: user.displayName,
+      phone: event.target.phone.value
+
+    }
   };
   return (
     <div>
@@ -60,6 +73,15 @@ const Purchase = ({ product }) => {
           type="number"
           disabled
           value={available}
+          className="input input-bordered w-full max-w-xs"
+        />
+        <label class="label block mr-60">
+          <span class="label-text">Ordered Quantity:</span>
+        </label>
+        <input
+          type="number"
+          name="quantity"
+          placeholder="Put your Quantity here"
           className="input input-bordered w-full max-w-xs"
         />
 
