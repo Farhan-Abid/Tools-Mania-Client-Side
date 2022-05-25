@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Hammer",
+        "price": 1200,
+        "description": "A hammer is a tool, most often a hand tool, consisting of a weighted head fixed to a long handle that is swung to deliver an impact to a small area of an object.",
+        "available": 200,
+        "minimum": 20,
+        "supplier": "Rocky bhai",
+        "img": "https://images.unsplash.com/photo-1588619461335-b81119fee1b5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435"
+    },
+    {
+        "id": 2,
+        "name": "Drill machine",
+        "price": 2000,
+        "description": "A drilling machine, also called a drill press, is a powerful tool used to cut a round hole into or through metal, plastic, wood, or other solid materials through turning and advancing rotary drill bits into a workpiece.",
+        "available": 300,
+        "minimum": 30,
+        "supplier": "Lalo Salamanca",
+        "img": "https://images.unsplash.com/photo-1623161551706-318825cd18ef?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1530"
+    },
+    {
+        "id": 3,
+        "name": "Screwdriver",
+        "price": 500,
+        "description": "screwdriver is a tool used for turning screws, usually having a handle of wood, plastic, etc, and a steel shank with a flattened square-cut tip that fits into a slot in the head of the screw." ,
+        "available": 100,
+        "minimum": 5,
+        "supplier": "Virat Kohli",
+        "img": "https://images.unsplash.com/photo-1586187543416-b1e5669978b3?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=383"
+    },
+    {
+        "id": 4,
+        "name": "Wrench",
+        "price": 1000,
+        "description": "a wrench consists of a stout lever with a notch at one or both ends for gripping the bolt or nut in such a way that it can be twisted by a pull on the wrench at right angles to the axes of the lever and the bolt or nut.",
+        "available": 100,
+        "minimum": 5,
+        "supplier": "Adheera",
+        "img": "https://images.unsplash.com/photo-1611288875785-f62fb9b044a7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=397"
+    },
+    {
+        "id": 5,
+        "name": "Pliers",
+        "price": 750,
+        "description": "pliers, hand-operated tool for holding and gripping small articles or for bending and cutting wire. ",
+        "available": 800,
+        "minimum": 50,
+        "supplier": "Shihab Traders",
+        "img": "https://images.unsplash.com/photo-1586374579231-32db331d5b19?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387"
+    },
+    {
+        "id": 6,
+        "name": "Measuring Tape",
+        "price": 100,
+        "description": "measuring tape is a type of hand tool typically used to measure distance or size. It is like a much longer flexible ruler consisting of a case, thumb lock, blade/tape, hook, and sometimes a belt clip. A tape measure will have imperial readings, metric readings or both",
+        "available": 600,
+        "minimum": 20,
+        "supplier": "Abir corporation",
+        "img": "https://images.unsplash.com/photo-1470167290877-7d5d3446de4c?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388"
+    },
+    {
+        "id": 7,
+        "name": "Chisel",
+        "price": 200,
+        "description": "chisel, cutting tool with a sharpened edge at the end of a metal blade, used—often by driving with a mallet or hammer—in dressing, shaping, or working a solid material such as wood, stone, or metal.",
+        "available": 600,
+        "minimum": 20,
+        "supplier": "Heung Min Son",
+        "img": "https://images.unsplash.com/photo-1617835381277-1d58bb6e7c08?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=354"
+    },
+    {
+        "id": 8,
+        "name": "Shovel",
+        "price": 700,
+        "description": "a tool with a long handle and broad scoop used to lift and throw loose material (as dirt or snow) as much as a shovel will hold a shovel of sand",
+        "available": 600,
+        "minimum": 20,
+        "supplier": "Alauddin Monir traders",
+        "img": "https://media.istockphoto.com/photos/old-rusty-metal-and-wood-dirt-shovel-picture-id174928895?s=612x612"
+    },
+    {
+        "id": 9,
+        "name": "Hacksaw",
+        "price": 550,
+        "description": "a fine-tooth saw with a blade under tension in a frame that is used for cutting hard materials (such as metal)",
+        "available": 400,
+        "minimum": 10,
+        "supplier": "Badbuzz Corporation",
+        "img": "https://images.unsplash.com/photo-1529716670961-75b2978b7ac3?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=419"
+    },
+    {
+        "id": 10,
+        "name": "Paintbrush",
+        "price": 40,
+        "description": "paintbrush is a brush used to apply paint or ink. A paintbrush is usually made by clamping bristles to a handle with a ferrule. They are available in various sizes, shapes, and materials.",
+        "available": 800,
+        "minimum": 80,
+        "supplier": "MRK traders",
+        "img": "https://images.unsplash.com/photo-1617173296245-13e9fc0b68fd?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1390"
+    }
+]

@@ -1,0 +1,21 @@
+.tools-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    
+    border-radius: 10px;
+}
+
+/* responsive part of inventories */
+
+@media only screen and (max-width: 576px) {
+    .tools-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (min-width: 577px ) and (max-width: 992px){
+    .tools-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
