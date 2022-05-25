@@ -17,7 +17,7 @@ const Purchase = ({ product }) => {
 
   const handlePurchase = (event) => {
     event.preventDefault();
-    const quantity = event.target.slot.value;
+    const quantity = event.target.quantity.value;
     const purchase ={
       toolsId : _id,
       tools: name,
@@ -81,6 +81,8 @@ const Purchase = ({ product }) => {
         <input
           type="number"
           name="quantity"
+          min={minimum}
+          max={available}
           placeholder="Put your Quantity here"
           className="input input-bordered w-full max-w-xs"
         />
