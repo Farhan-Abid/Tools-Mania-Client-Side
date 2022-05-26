@@ -15,7 +15,7 @@ const Tool = ({tool,setProduct}) => {
             <p>Supplier: {supplier}</p>
             <p><small>Description: {description}</small></p>
             <Link to="/purchase">
-            <button onClick={()=>setProduct(tool)}  className='btn btn-info'>Purchase</button>
+            <button onClick={()=>setProduct(tool)}  className='btn btn-primary'>Purchase</button>
 
             </Link>
 
