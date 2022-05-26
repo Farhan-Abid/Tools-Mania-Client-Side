@@ -15,6 +15,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import MyOrders from './Pages/Dashboard/MyOrders';
 import AddAReview from './Pages/Dashboard/AddAReview';
 import MyProfile from './Pages/Dashboard/MyProfile';
+import NotFound from './Pages/NotFound/NotFound';
 
 function App() {
   const [product,setProduct]=useState({});
@@ -33,6 +34,7 @@ function App() {
       <Route path='/myportfolio' element={<Myportfolio></Myportfolio>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>
       <Route path='/signup' element={<SignUp></SignUp>}></Route>
+      <Route path="*" element={<NotFound></NotFound>}></Route>
         
       </Routes>
       <ToastContainer />

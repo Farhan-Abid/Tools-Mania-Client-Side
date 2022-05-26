@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Footer from '../Shared/Footer';
+import Phone from './Phone/Phone';
 import Reviews from './Reviews';
 import Summary from './Summary';
 import Sweeper from './Sweeper/Sweeper';
@@ -15,6 +16,7 @@ const Home = ({setProduct}) => {
             <Summary></Summary>
             <Sweeper></Sweeper>
             <Reviews></Reviews>
+            <Phone></Phone>
             <Footer></Footer>
         </div>
     );
