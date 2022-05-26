@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Footer from '../Shared/Footer';
 import Reviews from './Reviews';
 import Summary from './Summary';
+import Sweeper from './Sweeper/Sweeper';
 import Tools from './Tools/Tools';
 
 const Home = ({setProduct}) => {
@@ -12,6 +13,7 @@ const Home = ({setProduct}) => {
             <Tools setProduct={setProduct}></Tools>
             <h1 className='text-center mt-9 mb-9 text-4xl text-primary uppercase font-bold '>Business Summary</h1>
             <Summary></Summary>
+            <Sweeper></Sweeper>
             <Reviews></Reviews>
             <Footer></Footer>
         </div>
