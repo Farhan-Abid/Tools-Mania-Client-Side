@@ -31,7 +31,7 @@ const Purchase = ({ product }) => {
 
     }
 
-    fetch('http://localhost:5000/clickPurchase', {
+    fetch('https://evening-dawn-28634.herokuapp.com/clickPurchase', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
